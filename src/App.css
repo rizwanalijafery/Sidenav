@@ -1,0 +1,87 @@
+/*.App {*/
+/*  text-align: center;*/
+/*}*/
+
+/*.App-logo {*/
+/*  height: 40vm;*/
+/*  pointer-events: none;*/
+/*}*/
+
+/*@media (prefers-reduced-motion: no-preference) {*/
+/*  .App-logo {*/
+/*    animation: App-logo-spin infinite 20s linear;*/
+/*  }*/
+/*}*/
+
+/*.App-header {*/
+/*  background-color: #282c34;*/
+/*  min-height: 100vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  font-size: calc(10px + 2vmin);*/
+/*  color: white;*/
+/*}*/
+
+/*.App-link {*/
+/*  color: #61dafb;*/
+/*}*/
+
+/*@keyframes App-logo-spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container
+{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.all
+{
+  background-color: #060b26;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all h1
+{
+  color: white;
+}
+.bootstrap-logo
+{
+  display: flex;
+  color: wheat;
+  justify-content: space-between;
+  align-items: center;
+}
+.bootstrap-logo h3
+{
+
+  font-family: Arial, serif;
+  margin-right: 30px;
+}
+.menu-bars {
+
+  color: wheat; /* Set the color of the icon */
+  font-size: 1px; /* Set the font size of the icon */
+  text-decoration: none; /* Remove the underline from the link */
+  /* Add any other styles you want */
+}
+
+.menu-bars:hover {
+  color: #007bff;
+}
+
